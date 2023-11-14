@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BOMBERMAN" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="animation\;reseau\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\BOMBERMAN" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-Wfatal-errors" />
+					<Add option="-W" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-march=core2" />
+					<Add option="-Wextra" />
+					<Add option="-enable-auto-import" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="C:\Users\thomas\Downloads\SFML-1.6\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lsfml-audio-s" />
+					<Add option="-lsfml-graphics-s" />
+					<Add option="-lsfml-window-s" />
+					<Add option="-lsfml-system-s" />
+					<Add option="-enable-auto-import" />
+					<Add option="-static-libgcc" />
+					<Add library="C:\Users\thomas\Downloads\SFML-1.6\lib\libsfml-audio-s.a" />
+					<Add library="C:\Users\thomas\Downloads\SFML-1.6\lib\libsfml-graphics-s.a" />
+					<Add library="C:\Users\thomas\Downloads\SFML-1.6\lib\libsfml-network-s.a" />
+					<Add library="C:\Users\thomas\Downloads\SFML-1.6\lib\libsfml-system-s.a" />
+					<Add library="C:\Users\thomas\Downloads\SFML-1.6\lib\libsfml-window-s.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\BOMBERMAN" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-march=core2" />
+			<Add option="-Os" />
+			<Add option="-O3" />
+			<Add option="-std=c++0x" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-enable-auto-import" />
+			<Add option="-DSFML_STATIC" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-lsfml-audio-s" />
+			<Add option="-lsfml-graphics-s" />
+			<Add option="-lsfml-window-s" />
+			<Add option="-lsfml-system-s" />
+			<Add option="-enable-auto-import" />
+			<Add option="-static-libgcc" />
+		</Linker>
+		<Unit filename="Aide.cpp" />
+		<Unit filename="Aide.h" />
+		<Unit filename="AniSprite.cpp">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="AniSprite.hpp">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="Anim.cpp">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="Anim.h">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="Bombe.cpp" />
+		<Unit filename="Bombe.h" />
+		<Unit filename="Bomberman.cpp" />
+		<Unit filename="Bomberman.h" />
+		<Unit filename="Chat.cpp">
+			<Option virtualFolder="reseau\" />
+		</Unit>
+		<Unit filename="Chat.hpp">
+			<Option virtualFolder="reseau\" />
+		</Unit>
+		<Unit filename="Client.cpp">
+			<Option virtualFolder="reseau\" />
+		</Unit>
+		<Unit filename="Client.h">
+			<Option virtualFolder="reseau\" />
+		</Unit>
+		<Unit filename="Damier.cpp" />
+		<Unit filename="Damier.h" />
+		<Unit filename="EventNetwork.cpp">
+			<Option virtualFolder="reseau\" />
+		</Unit>
+		<Unit filename="EventNetwork.h">
+			<Option virtualFolder="reseau\" />
+		</Unit>
+		<Unit filename="Frame.cpp">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="Frame.hpp">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="ImageManager.cpp">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="ImageManager.hpp">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="ImgAnim.cpp">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="ImgAnim.h">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="Item.cpp" />
+		<Unit filename="Item.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="Partie.cpp" />
+		<Unit filename="Partie.h" />
+		<Unit filename="PausableClock.cpp">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="PausableClock.h">
+			<Option virtualFolder="animation\" />
+		</Unit>
+		<Unit filename="Serveur.cpp">
+			<Option virtualFolder="reseau\" />
+		</Unit>
+		<Unit filename="Serveur.h">
+			<Option virtualFolder="reseau\" />
+		</Unit>
+		<Unit filename="Son.cpp" />
+		<Unit filename="Son.h" />
+		<Unit filename="SuperClass.cpp" />
+		<Unit filename="SuperClass.h" />
+		<Unit filename="cDAT.cpp" />
+		<Unit filename="cDAT.h" />
+		<Unit filename="fonctions.cpp" />
+		<Unit filename="fonctions.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="ressources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
