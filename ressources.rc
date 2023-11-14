@@ -35,7 +35,7 @@ BEGIN
             VALUE "ProductVersion",   VER_PRODUCTVERSION_STR
         END
     END
-
+/Users/THOMAS/Documents/bombgirl/BombGirl/Ressources/Ressources.dat
     BLOCK "VarFileInfo"
     BEGIN
         /* The following line should only be modified for localized versions.     */
