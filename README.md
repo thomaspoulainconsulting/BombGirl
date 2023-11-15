@@ -6,7 +6,7 @@ A dev blog was created by then in 2010 : https://blogdevbombgirl.blogspot.com/
 The game was written in C++ and SFML 1.6.<br>
 The level editor was written in Qt.
 
-The level editor was able to create level in a special dedicated .dat format with all elements need for the game to draw walls, bricks, position of players, teleportals.
+The level editor was able to create level in a special dedicated .dat format with all elements needed for the game to draw walls, bricks, position of players, teleportals.
 
 ## Medias
 ### Game
