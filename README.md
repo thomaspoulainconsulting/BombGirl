@@ -7,8 +7,10 @@ The game was written in C++ along with a visual level editor written in Qt.
 
 The level editor was able to create level in a special dedicated .dat format with all elements need for the game to draw walls, bricks, position of players, teleportals.
 
-## Images & Video
+## Medias
+### Game
+TBD
 
-
+### Level editor
 https://github.com/thomaspoulainconsulting/BombGirl/assets/423951/9243c3af-3e56-47a9-ae97-ab2b33313e31
 
