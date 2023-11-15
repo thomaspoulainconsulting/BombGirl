@@ -3,7 +3,8 @@ A Bomberman clone game with a client/server implementation and a level editor.<b
 A dev blog was created by then in 2010 : https://blogdevbombgirl.blogspot.com/
 
 ## Technical details
-The game was written in C++ along with a visual level editor written in Qt.
+The game was written in C++ and SFML 1.6.<br>
+The level editor was written in Qt.
 
 The level editor was able to create level in a special dedicated .dat format with all elements need for the game to draw walls, bricks, position of players, teleportals.
 
